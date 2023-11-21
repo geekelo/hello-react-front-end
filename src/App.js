@@ -1,10 +1,10 @@
 // src/App.js
 import React from 'react';
-import { 
+import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
+  Link,
 } from 'react-router-dom';
 import Greeting from './components/greetings';
 import Home from './components/home';
