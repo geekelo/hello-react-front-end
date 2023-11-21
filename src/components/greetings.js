@@ -11,8 +11,6 @@ const Greeting = () => {
     dispatch(fetchGreetings());
   }, [dispatch]);
 
-  console.log(greeting)
-
   return (
     <div>
       <h2>Greeting</h2>

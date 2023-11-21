@@ -16,7 +16,6 @@ export const fetchGreetings = createAsyncThunk(
       }
       const data = await response.json();
 
-      console.log(data.greeting)
       return data.greeting;
     } catch (error) {
       throw new Error('Something went wrong with fetching quote');

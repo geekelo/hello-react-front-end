@@ -1,6 +1,11 @@
 // src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { 
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from 'react-router-dom';
 import Greeting from './components/greetings';
 import Home from './components/home';
 
@@ -18,16 +23,13 @@ function App() {
             </li>
           </ul>
         </nav>
-
         <hr />
-  
 
-      <Routes>
-        <Route path="/home" exact element={ <Home /> } />
-        <Route path="/greeting" element={ <Greeting /> } />
+        <Routes>
+          <Route path="/home" exact element={<Home />} />
+          <Route path="/greeting" element={<Greeting />} />
         </Routes>
-        </Router>
-
+      </Router>
     </div>
   );
 }
