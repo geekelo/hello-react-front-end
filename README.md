@@ -1,229 +1,71 @@
-<a name="readme-top"></a>
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="https://dl.dropboxusercontent.com/s/110axfscx8e9q3q/Screenshot%202023-04-27%20024351.png" alt="logo" width=""  height="auto" />
-  <br/>
+# Getting Started with Create React App
 
-  <h3><b>Hello React Frontend</b></h3>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-</div>
+## Available Scripts
 
-<!-- TABLE OF CONTENTS -->
+In the project directory, you can run:
 
-# 📗 Table of Contents
+### `npm start`
 
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 PERSONAL INVENTORY ](#-personal-inventory-)
-  <!-- - [Live demo](#live-demo)
-  - [Video Presentation](#video-presentation-) -->
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [💻 Getting Started ](#-getting-started-)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-    - [Usage](#usage)
-  - [👥 Authors ](#-authors-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-<!-- PROJECT DESCRIPTION -->
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-# 📖 Hello React Frontend <a name="about-project"></a>
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-"**Hello React Frontend** is an React only frontend template that relies on a [RAILS API APP](https://github.com/geekelo/hello-rails-back-end) serves solely as a backend app"
+### `npm run build`
 
-<!-- ## Live Demo & Presentation <a name="live-demo">
-[LIVE DEMO](https://cash-in-out-qoka.onrender.com/) -->
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-<!-- Video Presentation -->
-<!-- ## Video Presentation <a name="video-presentation"></a>
-[See Video](https://vimeo.com/883597169/4195c3d8ef?share=copy) -->
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## 🛠 Built With <a name="built-with"></a>
+### `npm run eject`
 
-### Tech Stack <a name="tech-stack"></a>
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-<details>
-  <summary>ES6</summary>
-  <ul>
-    <li><a href="https://hacks.mozilla.org/2015/04/es6-in-depth-an-introduction/">ES6 stands for ECMAScript 6. ECMAScript was created to standardize JavaScript, and ES6 is the 6th version of ECMAScript, it was published in 2015, and is also known as ECMAScript 2015.</a></li>
-  </ul>
-</details>
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-<details>
-  <summary>HTML</summary>
-  <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content.</a></li>
-  </ul>
-</details>
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-<details>
-  <summary>CSS</summary>
-  <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</a></li>
-  </ul>
-</details>
+## Learn More
 
-<details>
-<summary>JavaScript</summary>
-  <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.</a></li>
-  </ul>
-</details>
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-<details>
-  <summary>REACT</summary>
-  <ul>
-    <li><a href="https://create-react-app.dev/docs/getting-started">Create React App is an officially supported way to create single-page React applications. It offers a modern build setup with no configuration.</a></li>
-  </ul>
-</details>
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-<details>
-  <summary>REDUX</summary>
-</details>
+### Code Splitting
 
-<details>
-  <summary>API</summary>
-</details>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
+### Analyzing the Bundle Size
 
-<!-- Features -->
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Key Features <a name="key-features"></a>
+### Making a Progressive Web App
 
-- **Add styles**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
+### Advanced Configuration
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
+### Deployment
 
-<!-- GETTING STARTED -->
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-## 💻 Getting Started <a name="getting-started"></a>
+### `npm run build` fails to minify
 
-
-To get a local copy up and running, follow these steps.
-
-> Clone the repository
-```
-git clone https://github.com/geekelo/hello-react-fronnt-end.git
-```
-> And you are ready to begin your project
-
-### Setup <a name="setup"></a>
-This project contains
-An HTML FILE (free to edit) - file that contains html codes to give structure to the main webpage
-A CSS FILE (free to edit) - file that contains css codes to style the webpage
-A GIT IGNORE FILE (free to edit) - to hide personal or private files
-HTML/CSS LINTER FILES (should not edit) - Do not make changes
-A JAVASCRIPT FILE (free to edit) - that handles functionalities and dynamic HTML
-
-### Prerequisites <a name="prerequisites"></a>
-> You should have Node and Git Installed
-> You should have basic knowledge on HTML / CSS / JavaScript
-> You should have a code editor
-
-### Install <a name="install"></a>
-
-> Download install [VSCODE](https://code.visualstudio.com/) and [Git](https://git-scm.com/)
-> To install linters, execute the following commands:
-```
-Initialize npm | ``` npminit -y ```
-HTML | ``` npm install --save-dev hint@7.x ```
-CSS | ```npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x  ```
-```
-### Usage <a name="usage"></a>
-To run the linters, execute the following command and fix linter errors:
-```
-HTML | ``` npx hint . ```
-CSS | ```npx stylelint "**/*.{css,scss}" ```
-If you get a flood of errors keep in mind that linters guide you in writing a clean code!
-```
-### Run Tests <a name="run-tests"></a>
-You can run this program on using `npm start`
-You can run tests for this program using `npm test`
-
-### Deployment <a name="deployment"></a>
-
-You can deploy this project using the following procedure:
-
-- Pick the right hosting provider.
-- Choose the tool and method to upload your website.
-- Upload files to your website.
-- Move the website files to the main root folder.
-- Import your database.
-- Check if your website works worldwide.
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
-
-## 👥 Authors <a name="authors"></a>
-
-
-
-👤 **Eloghene Otiede**
-
-- GitHub: [@githubhandle](https://github.com/geekelo)
-- Twitter: [@twitterhandle](https://twitter.com/geekelo_xyz)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/eloghene-otiede)
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-
-- [ ] User Authentication
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/geekelo/hello-react-front-end/issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-
-If you like this project drop a ⭐️
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-
-Documented Guide to setup - [HERE](https://media.licdn.com/dms/document/media/D4D1FAQHwcpwKjuwfog/feedshare-document-pdf-analyzed/0/1700414337778?e=1701302400&v=beta&t=YMkfdTxf1_XKvM2d0ORKhWlgLuCNNrWjg9nDWbjg4qg)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./mit.md) licensed.
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# hello-react-front-end
